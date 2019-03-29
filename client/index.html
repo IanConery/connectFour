@@ -1,0 +1,61 @@
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Ian Conery">
+    <title>Connect Four</title>
+    <!-- CSS -->
+    <link rel="shortcut icon" href="#" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./main.css">
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h2 class="text-center main-header-text">Let's Play Connect Four</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <h4 id="one" class="player">Player One</h4>
+          </div>
+          <div class="col-md-6">
+            <h4 id="two" class="player">Player Two</h4>
+          </div>
+        </div>
+      </header>
+      <div class="container text-center">
+        <div id="board" class="">
+
+        </div>
+      </div>
+    </div>
+
+    <div id="player-popup" class="modal text-center" style="display: none;">
+      <div class="modal-header">
+        <h4 class="">Welcome!</h4>
+      </div>
+      <div class="modal-body">
+        <p class="">Please fill out the following and hit the <code>Let's play!</code> button at the bottom</p>
+        <form id="player-form">
+          <div class="form-row">
+            <div class="form-group col">
+              <label for="player-one">Player One (red)</label>
+              <input type="text" class="form-control" id="player-one" placeholder="John" name="one" required>
+            </div>
+            <div class="form-group col">
+              <label for="player-two">Player Two (black)</label>
+              <input type="text" class="form-control" id="player-two" placeholder="Jane" name="two" required>
+            </div>
+          </div>
+        </form>
+      <button id="start">Let's play!</button>
+      </div>
+    </div>
+
+  </body>
+</html>

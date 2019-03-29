@@ -1,0 +1,22 @@
+{
+  "name": "connectfour",
+  "version": "1.0.0",
+  "description": "A simple game of connect four",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IanConery/connectFour.git"
+  },
+  "author": "Ian Conery",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IanConery/connectFour/issues"
+  },
+  "homepage": "https://github.com/IanConery/connectFour#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
